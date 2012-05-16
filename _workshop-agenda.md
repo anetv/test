@@ -57,6 +57,7 @@ Links:
 * Modernizr: http://modernizr.com/
 * Yahoo! Reset CSS: http://developer.yahoo.com/yui/reset/
 * Normalize.css: http://necolas.github.com/normalize.css/
+* SCSS Docs: http://sass-lang.com/docs.html
 
 ### Responsive Web Design
 *Time-permitting...starting from mobile, building up to larger screens.*
