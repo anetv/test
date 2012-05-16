@@ -11,7 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120516021939) do
+ActiveRecord::Schema.define(:version => 20120516022758) do
+
+  create_table "assignments", :force => true do |t|
+    t.string   "title"
+    t.text     "instructions"
+    t.text     "deliverables"
+    t.integer  "course_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  add_index "assignments", ["course_id"], :name => "index_assignments_on_course_id"
 
   create_table "courses", :force => true do |t|
     t.string   "title"
