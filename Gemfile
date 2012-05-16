@@ -7,12 +7,29 @@ gem 'rails', '3.2.3'
 
 gem 'sqlite3'
 
+# Use RDiscount to process Markdown
+# See https://github.com/rtomayko/rdiscount
+# and http://daringfireball.net/projects/markdown/syntax
+gem 'rdiscount'
+
+# Use CarrierWave to manage attachments
+# See https://github.com/jnicklas/carrierwave
+# gem 'carrierwave'
+
+# Use SimpleForm
+# See https://github.com/plataformatec/simple_form
+# and http://blog.plataformatec.com.br/2012/02/simpleform-2-0-bootstrap-for-you-with-love/
+gem 'simple_form'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+
+  # Twitter Bootstrap Rails
+  # See https://github.com/seyhunak/twitter-bootstrap-rails
+  gem 'twitter-bootstrap-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platform => :ruby
